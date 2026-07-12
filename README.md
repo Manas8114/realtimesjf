@@ -37,7 +37,7 @@ python realTimesjf.py
 **Tab 1: Process Info**
 - "Retrieve Process Info" — Scans live processes, applies aging + SJF, displays table
 - "Rearrange by Arrival Time" — Re-sorts table by arrival time
-- Shows: PID, Arrival Time, Burst Time, Completion Time, Turnaround Time
+- Table columns: PID, Arrival Time, Burst Time, Completion Time, Turnaround Time
 - Footer: Average Turnaround Time
 
 **Tab 2: Graphical Analysis**
@@ -60,4 +60,4 @@ python realTimesjf.py
 - Educational/academic project (OS scheduling simulation)
 - Completion time = 0 in current impl (would need actual execution simulation)
 - Requires admin/root for full process access on some systems
-- Created 2023
+- Windows: prefer Microsoft Store Python for `psutil` compatibility
